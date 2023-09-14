@@ -33,4 +33,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockboxie:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockboxie:v1
