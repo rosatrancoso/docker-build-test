@@ -33,6 +33,3 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockboxie:latest
-      
-      name: 
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
